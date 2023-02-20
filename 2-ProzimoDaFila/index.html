@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+  <script>
+    function ProximoDaFila(array, elemento){
+      array.push(elemento);//Agrega um novo elemento
+      return array.shift(elemento);//remove o ultimo elemento
+    }
+
+    var MeuArray = [1, 2, 3, 4, 5]
+    console.log("Antes: " + JSON.stringify(MeuArray))
+    console.log(ProximoDaFila(MeuArray, 6))
+    console.log("Depois: " + JSON.stringify(MeuArray))
+  </script>
+</body>
+</html>
