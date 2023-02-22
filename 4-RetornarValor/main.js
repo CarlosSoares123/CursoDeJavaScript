@@ -17,5 +17,4 @@ function classificarValor(valor) {
   }
   return resposta
 }
-
 console.log(classificarValor(1))
